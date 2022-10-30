@@ -8,12 +8,12 @@ class Item {
 
     private Item father;
 
-    public Item (String Name) {
+    public Item(String Name) {
         name = Name;
         children = new ArrayList<>();
     }
 
-    public Item (String name, Item father) {
+    public Item(String name, Item father) {
         this.name = name;
         this.children = new ArrayList<>();
         this.father = father;
